@@ -1,13 +1,13 @@
 // Check whether a string is a palindrome.
 
-let str="madam"
-let rev=""
+let str = "madam"
+let rev = ""
 
-for(let i=str.length-1;i>=0;i--){
-    rev=rev+str.charAt(i)
+for (let i = str.length - 1; i >= 0; i--) {
+    rev = rev + str.charAt(i)
 }
-if(str===rev){
+if (str === rev) {
     console.log("Palindrome")
-}else{
+} else {
     console.log("Not Palindrome")
 }
